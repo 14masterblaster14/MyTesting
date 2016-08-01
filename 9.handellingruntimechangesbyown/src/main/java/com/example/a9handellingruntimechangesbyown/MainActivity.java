@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import java.util.Date;
 
+/* INCLUDE Configuration tag in manifest file */
 public class MainActivity extends AppCompatActivity {
 
     String showTime;
