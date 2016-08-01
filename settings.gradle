@@ -1,1 +1,1 @@
-include ':app', ':1.uibycode', ':2.layouts&views', ':3.xmllayoutaccessingthrjava', ':4.adapterviews', ':5.customviews', ':6.animations', ':7.activitylifecycle', ':8.handellingruntimechanges', ':9.handellingruntimechangesbyown', ':layouttest', ':10.fragments'
+include ':app', ':1.uibycode', ':2.layouts&views', ':3.xmllayoutaccessingthrjava', ':4.adapterviews', ':5.customviews', ':6.animations', ':7.activitylifecycle', ':8.handellingruntimechanges', ':9.handellingruntimechangesbyown', ':layouttest', ':10.fragments', ':11.toastnotifications', ':12.statusbarnotification'
