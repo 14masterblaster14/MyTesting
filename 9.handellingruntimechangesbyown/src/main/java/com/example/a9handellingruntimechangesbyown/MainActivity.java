@@ -1,14 +1,19 @@
 package com.example.a9handellingruntimechangesbyown;
 
+import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
+
+    String showTime;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,11 +26,31 @@ public class MainActivity extends AppCompatActivity {
 
                 TextView textView = (TextView) findViewById(R.id.TxtTime);
                 textView.setText(" " + new Date());
+                showTime = (String) textView.getText();
             }
         });
         showToast("onCreate");
 
     }
+
+    public void onConfigurationChanged(Configuration newConfig) {
+
+        super.onConfigurationChanged(newConfig);
+
+        if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
+
+            changeImage(R.drawable.teaser);
+        } else if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            changeImage(R.drawable.fight);
+        } else {
+            changeImage(R.drawable.image);
+        }
+
+        showToast("onConfigurationChanged");
+        TextView txtvw = (TextView) findViewById(R.id.TxtTime);
+        txtvw.setText("" + showTime);
+    }
+
 
     protected void onRestart() {
         super.onRestart();
@@ -55,6 +80,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         showToast("onDestroy");
+    }
+
+    private void changeImage(int id) {
+
+        final ImageView image = (ImageView) findViewById(R.id.ImgView);
+        image.setImageResource(id);
     }
 
     public void showToast(String msg) {
