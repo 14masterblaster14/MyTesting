@@ -11,6 +11,8 @@ import android.widget.Toast;
 import java.io.File;
 import java.util.Date;
 
+/* For rotate screen   */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,24 +20,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        class Click implements View.OnClickListener {
-
+        findViewById(R.id.BtnSubmit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                TextView txtVw = (TextView) findViewById(R.id.TxtTime);
+                txtVw.setText("" + new Date());
 
-                TextView TxtVw = (TextView) findViewById(R.id.TxtTime);
-                TxtVw.setText("" + new Date());
-
-
-/*
-        findViewById(R.id.BtnSubmit).setOnClickListener(new
-*/
             }
+        });
 
-        }
         showToast("onCreate");
     }
+
 
     protected void onRestart() {
         super.onRestart();
@@ -67,9 +64,27 @@ public class MainActivity extends AppCompatActivity {
         showToast("onDestroy");
     }
 
-    public void showToast(String Msg){
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
 
-        Toast.makeText(this ,Msg,Toast.LENGTH_SHORT).show();
+        final TextView textView = (TextView) findViewById(R.id.TxtTime);
+        outState.putString("key_my_data", textView.getText().toString());
+    }
+
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        if (savedInstanceState != null) {
+            final TextView textView = (TextView) findViewById(R.id.TxtTime);
+            String myData = savedInstanceState.getString("key_my_data");
+            textView.setText(myData);
+        }
+    }
+
+    public void showToast(String Msg) {
+
+        Toast.makeText(this, Msg, Toast.LENGTH_SHORT).show();
     }
 }
 
