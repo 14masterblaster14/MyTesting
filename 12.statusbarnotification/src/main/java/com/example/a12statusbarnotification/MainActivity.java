@@ -14,24 +14,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.Btn_Notify).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                showNotification();
-            }
-        });
-    }
-
-    private void showNotification() {
-
-        Intent intent = new Intent(this, NotificationActivity.class);
-
-        PendingIntent contentIntent = PendingIntent.getActivities(this
-                , 1234
-                , intent
-                , PendingIntent.FLAG_UPDATE_CURRENT);
-
-
     }
 }
