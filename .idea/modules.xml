@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1.uibycode/1.uibycode.iml" filepath="$PROJECT_DIR$/1.uibycode/1.uibycode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.fragments/10.fragments.iml" filepath="$PROJECT_DIR$/10.fragments/10.fragments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" filepath="$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" filepath="$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" filepath="$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.layouts&amp;views/2.layouts&amp;views.iml" filepath="$PROJECT_DIR$/2.layouts&amp;views/2.layouts&amp;views.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" filepath="$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.adapterviews/4.adapterviews.iml" filepath="$PROJECT_DIR$/4.adapterviews/4.adapterviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.customviews/5.customviews.iml" filepath="$PROJECT_DIR$/5.customviews/5.customviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6.animations/6.animations.iml" filepath="$PROJECT_DIR$/6.animations/6.animations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7.activitylifecycle/7.activitylifecycle.iml" filepath="$PROJECT_DIR$/7.activitylifecycle/7.activitylifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8.handellingruntimechanges/8.handellingruntimechanges.iml" filepath="$PROJECT_DIR$/8.handellingruntimechanges/8.handellingruntimechanges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9.handellingruntimechangesbyown/9.handellingruntimechangesbyown.iml" filepath="$PROJECT_DIR$/9.handellingruntimechangesbyown/9.handellingruntimechangesbyown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyTesting.iml" filepath="$PROJECT_DIR$/MyTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layouttest/layouttest.iml" filepath="$PROJECT_DIR$/layouttest/layouttest.iml" />
+    </modules>
+  </component>
+</project>

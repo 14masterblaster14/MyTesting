@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a3xmllayoutaccessingthrjava.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:background="#12c700"
+        android:text="Hello World!"
+        android:textAllCaps="true"
+        android:textColor="#1a237e"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Edt_Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Ur Full Name" />
+
+    <Button
+        android:id="@+id/Btn_Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:text="Submit"
+        android:onClick="Submit"/>
+
+    <TextView
+        android:id="@+id/Txt_Upper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffee58"
+        android:hint="Name in uppercase"
+        android:textColorHint="#ff9800"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/Btn_Revert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:text="Revert"
+        android:onClick="Revert"/>
+
+    <TextView
+        android:id="@+id/Txt_Lower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#90caf9"
+        android:gravity="right"
+        android:hint="Name in lowercase"
+        android:textColorHint="#3f51b5"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/Btn_Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:text="Reset"
+        android:onClick="Reset"/>
+</LinearLayout>
