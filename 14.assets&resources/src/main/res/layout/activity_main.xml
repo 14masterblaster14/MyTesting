@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/Txt_BckGrnd" />
+        android:background="#ffee58" />
 
     <ListView
         android:layout_width="match_parent"
