@@ -54,11 +54,12 @@ public class MainActivity extends AppCompatActivity {
                                Null will return all columns.                    */
 
                 String selection = "rollNo = ?";
-                /* selection --> filter for which rows to return. */
+                /* selection --> filter for which rows to return.
+                 *               Null will return all data i.e. Select * */
 
                 String[] selectionArgs = {getRollNo()};
                 /* selectionArgs --> It will replace the $ in selection clause
-                                     Null will return */
+                                    Null will return all data i.e. Select * */
 
                 String groupBy = null;
                 String having = null;
@@ -66,6 +67,17 @@ public class MainActivity extends AppCompatActivity {
 
                 Cursor cursor = sqlDb.query(table, columns, selection, selectionArgs, groupBy, having, orderBy);
 
+                while (cursor.moveToNext()) {
+
+                    String userName = cursor.getString(0);
+                    /*0--> Column index*/
+                    /* int rollNo = cursor.getInt(cursor.getColumnIndex("RollNo")); */
+
+                    Log.i("sqlite", "UserName : " + userName);
+
+                }
+
+                sqlDb.close();
             }
         });
     }
