@@ -1,9 +1,11 @@
 package com.example.a18sqlite;
 
 import android.content.ContentValues;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
@@ -30,9 +32,40 @@ public class MainActivity extends AppCompatActivity {
                 ContentValues values = new ContentValues();
                 values.put("UserName", getUserName());
                 values.put("RollNo", getRollNo());
+                Log.i("sqlite", "UserName :" + getUserName());
+                Log.i("sqlite", "RollNo :" + getRollNo());
                 sqlDb.insert(table, nullColumnHack, values);
 
                 sqlDb.close();
+            }
+        });
+
+
+        findViewById(R.id.BtnQuery).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                SQLiteDatabase sqlDb = dbHelper.getReadableDatabase();
+
+                String table = "UserTable";
+                String[] columns = {"UserName"};
+                /* String[] columns = null; */
+                /* columns --> columns to be return from query and displayed.
+                               Null will return all columns.                    */
+
+                String selection = "rollNo = ?";
+                /* selection --> filter for which rows to return. */
+
+                String[] selectionArgs = {getRollNo()};
+                /* selectionArgs --> It will replace the $ in selection clause
+                                     Null will return */
+
+                String groupBy = null;
+                String having = null;
+                String orderBy = null;
+
+                Cursor cursor = sqlDb.query(table, columns, selection, selectionArgs, groupBy, having, orderBy);
+
             }
         });
     }
