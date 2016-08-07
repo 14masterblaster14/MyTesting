@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="EdtUsrName">EdtUsrName</string>
-    <string name="EdtRollNo">EdtRollNo</string>
-    <string name="BtnInsert">BtnInsert</string>
-    <string name="BtnUpdt">UPDATE</string>
-    <string name="BtnQuery">QUERY</string>
-    <string name="BtnDelete">DELETE</string>
-</resources>

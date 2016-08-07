@@ -9,7 +9,13 @@
       <module fileurl="file://$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" filepath="$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/14.assets&amp;resources/14.assets&amp;resources.iml" filepath="$PROJECT_DIR$/14.assets&amp;resources/14.assets&amp;resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/15.interactivitycommunication/15.interactivitycommunication.iml" filepath="$PROJECT_DIR$/15.interactivitycommunication/15.interactivitycommunication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16.intent&amp;filters/16.intent&amp;filters.iml" filepath="$PROJECT_DIR$/16.intent&amp;filters/16.intent&amp;filters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17.broadcast&amp;receivers/17.broadcast&amp;receivers.iml" filepath="$PROJECT_DIR$/17.broadcast&amp;receivers/17.broadcast&amp;receivers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18.sharedpreferences/18.sharedpreferences.iml" filepath="$PROJECT_DIR$/18.sharedpreferences/18.sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19.filemanipulation/19.filemanipulation.iml" filepath="$PROJECT_DIR$/19.filemanipulation/19.filemanipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/2.layouts&amp;views/2.layouts&amp;views.iml" filepath="$PROJECT_DIR$/2.layouts&amp;views/2.layouts&amp;views.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20.sqlite/18.sqlite.iml" filepath="$PROJECT_DIR$/20.sqlite/18.sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21.contentprovider/19.contentprovider.iml" filepath="$PROJECT_DIR$/21.contentprovider/19.contentprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" filepath="$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/4.adapterviews/4.adapterviews.iml" filepath="$PROJECT_DIR$/4.adapterviews/4.adapterviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/5.customviews/5.customviews.iml" filepath="$PROJECT_DIR$/5.customviews/5.customviews.iml" />

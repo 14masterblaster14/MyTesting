@@ -15,7 +15,13 @@
             <option value="$PROJECT_DIR$/13.dialogotification" />
             <option value="$PROJECT_DIR$/14.assets&amp;resources" />
             <option value="$PROJECT_DIR$/15.interactivitycommunication" />
+            <option value="$PROJECT_DIR$/16.intent&amp;filters" />
+            <option value="$PROJECT_DIR$/17.broadcast&amp;receivers" />
+            <option value="$PROJECT_DIR$/18.sharedpreferences" />
+            <option value="$PROJECT_DIR$/19.filemanipulation" />
             <option value="$PROJECT_DIR$/2.layouts&amp;views" />
+            <option value="$PROJECT_DIR$/20.sqlite" />
+            <option value="$PROJECT_DIR$/21.contentprovider" />
             <option value="$PROJECT_DIR$/3.xmllayoutaccessingthrjava" />
             <option value="$PROJECT_DIR$/4.adapterviews" />
             <option value="$PROJECT_DIR$/5.customviews" />
@@ -37,7 +43,13 @@
             <option value="$PROJECT_DIR$/13.dialogotification" />
             <option value="$PROJECT_DIR$/14.assets&amp;resources" />
             <option value="$PROJECT_DIR$/15.interactivitycommunication" />
+            <option value="$PROJECT_DIR$/16.intent&amp;filters" />
+            <option value="$PROJECT_DIR$/17.broadcast&amp;receivers" />
+            <option value="$PROJECT_DIR$/18.sharedpreferences" />
+            <option value="$PROJECT_DIR$/19.filemanipulation" />
             <option value="$PROJECT_DIR$/2.layouts&amp;views" />
+            <option value="$PROJECT_DIR$/20.sqlite" />
+            <option value="$PROJECT_DIR$/21.contentprovider" />
             <option value="$PROJECT_DIR$/3.xmllayoutaccessingthrjava" />
             <option value="$PROJECT_DIR$/4.adapterviews" />
             <option value="$PROJECT_DIR$/5.customviews" />
