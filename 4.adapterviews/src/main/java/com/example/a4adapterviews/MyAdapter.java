@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -48,7 +49,24 @@ public class MyAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
     /*    return null; */
 
-        ImageView imageView =
+        final View view = inflater.inflate(R.layout.custom_items,
+                null,
+                false);
+    /* null -->
+    *   false -->        */
+        ImageView image =
+                (ImageView) view.findViewById(R.id.ImgViewItem);
+        image.setImageResource(dataset
+                .get(position)
+                .getImageID());
+
+        TextView text =
+                (TextView) view.findViewById(R.id.TxtViewItem);
+        text.setText(dataset
+                .get(position)
+                .getTextName());
+
+        return view;
 
 
     }

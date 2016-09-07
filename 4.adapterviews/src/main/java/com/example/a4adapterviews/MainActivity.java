@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.AndroidCharacter;
 import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -16,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
       /*  useArrayAdapter();  */
-        useCustomAdapter();
+      /*  useCustomAdapter();  */
+
 
     }
 
@@ -57,19 +59,20 @@ public class MainActivity extends AppCompatActivity {
         item1.setItemID(3);
         item1.setImageID(R.mipmap.ic_launcher);
         item1.setTextName("China");
-        dataset.add(item1);
+        dataset.add(item3);
 
         MyItems item4 = new MyItems();
         item1.setItemID(4);
         item1.setImageID(R.mipmap.image);
         item1.setTextName("Denmark");
-        dataset.add(item1);
+        dataset.add(item4);
+
+        MyAdapter adapter = new MyAdapter(this, dataset);
 
         ListView listview = (ListView) findViewById(R.id.ListView);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, dataset);
-
         listview.setAdapter(adapter);
     }
+
 
 }
