@@ -4,37 +4,20 @@
     android:layout_height="match_parent">
 
     <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
-            android:text="Date" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="2"
-            android:text="ShowDate" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="3"
             android:text="Time" />
 
-        <CheckBox
+        <TextClock
+            android:id="@+id/textClock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="ShwTim" />
-        <!--
-       <TextClock
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:id="@+id/textClock"
-           android:layout_column="4" />   -->
+            android:layout_column="2" />
     </TableRow>
 
     <TableRow>
@@ -47,11 +30,8 @@
 
         <EditText
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:width="200px" />
     </TableRow>
 
     <TableRow>
@@ -66,15 +46,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:width="100px" />
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
     </TableRow>
 
     <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
         <RatingBar
             android:id="@+id/ratingBar"
@@ -83,10 +59,13 @@
             android:layout_column="2" />
     </TableRow>
 
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
 
     <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
         <Button
             android:id="@+id/button"
@@ -95,5 +74,6 @@
             android:layout_column="2"
             android:text="Submit" />
     </TableRow>
+
 
 </TableLayout>
