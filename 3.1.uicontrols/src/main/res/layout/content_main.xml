@@ -17,7 +17,9 @@
         android:id="@+id/TxtView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:cursorVisible="true"
+        android:text="hello world!"
+        android:textAllCaps="true"
         android:textStyle="bold" />
 
     <ImageView
