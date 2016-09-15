@@ -17,10 +17,27 @@
         android:id="@+id/TxtView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#12c700"
         android:cursorVisible="true"
-        android:text="hello world!"
+        android:gravity="center"
+        android:text="ui controls"
         android:textAllCaps="true"
+        android:textSize="21sp"
         android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EdtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffee58"
+        android:hint="This is Edittext..." />
+
+    <!--
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edittext" /> -->
 
     <ImageView
         android:layout_width="wrap_content"
@@ -42,12 +59,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/EdtTxt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffee58"
-        android:hint="This is Edittext..." />
 
     <AutoCompleteTextView
         android:id="@+id/AutoTxtView"
