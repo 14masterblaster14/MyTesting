@@ -25,13 +25,24 @@
         android:textSize="21sp"
         android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/EdtTxt"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffee58"
-        android:hint="This is Edittext..." />
+        android:orientation="horizontal">
 
+        <EditText
+            android:id="@+id/EdtTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffee58"
+            android:hint="This is Edittext..." />
+
+        <AutoCompleteTextView
+            android:id="@+id/AutoTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionHint="AutoCompTxtVw" />
+    </LinearLayout>
     <!--
     <EditText
 
@@ -39,32 +50,26 @@
         android:layout_height="wrap_content"
         android:padding="5dp"
         android:background="@drawable/rounded_edittext" /> -->
-
-    <ImageView
-        android:id="@+id/ImgView"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/image" />
-
-    <ImageSwitcher
-        android:id="@+id/ImgSwitch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </ImageSwitcher>
-
-    <AutoCompleteTextView
-        android:id="@+id/AutoTxtView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
+        android:layout_gravity="center"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ImgView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/image" />
+
+        <ImageSwitcher
+            android:id="@+id/ImgSwitcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageSwitcher>
 
         <Button
             android:id="@+id/Btn"
@@ -78,12 +83,25 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_launcher" />
 
-        <RadioButton
-            android:id="@+id/RadioBtn"
+        <RadioGroup
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="yes " />
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/RadioBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Yes " />
+
+            <RadioButton
+                android:id="@+id/RadioBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="No " />
+
+        </RadioGroup>
 
         <ToggleButton
             android:id="@+id/ToggleBtn"
@@ -93,12 +111,20 @@
             android:textOff="Stop"
             android:textOn="Start" />
 
+        <Switch
+            android:id="@+id/Switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal">
+        android:layout_gravity="center"
+        android:gravity="center">
 
         <CheckBox
             android:id="@+id/CheckBox"
@@ -111,30 +137,18 @@
             android:id="@+id/RtngBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </NumberPicker>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <NumberPicker
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </NumberPicker>
-
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-
-
-
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </RadioGroup>
-
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <DatePicker
         android:layout_width="wrap_content"
@@ -147,13 +161,5 @@
         android:layout_height="wrap_content">
 
     </TimePicker>
-
-    <RatingBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <Chronometer
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>
