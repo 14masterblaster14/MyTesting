@@ -1,8 +1,6 @@
-package com.example.a31uicontrols;
+package com.example.a32test;
 
 import android.os.Bundle;
-import android.support.annotation.IdRes;
-import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -10,16 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.EditText;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
-    EditText editText = (EditText) findViewById(R.id.EdtTxt);
-    String edittextinput = editText.getText().toString();
-    TextView textView = (TextView) findViewById(R.id.TxtView);
-
-    // My Code starts here -->>
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +49,4 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    /* textView.setText(edittextinput)  */
-
-
 }
