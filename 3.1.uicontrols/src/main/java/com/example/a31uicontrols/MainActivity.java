@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    /* textView.setText(edittextinput)  */
+     /*textView.setText(edittextinput);*/
 
 
 }
