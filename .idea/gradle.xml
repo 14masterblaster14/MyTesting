@@ -3,8 +3,9 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -35,36 +36,7 @@
             <option value="$PROJECT_DIR$/layouttest" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/1.uibycode" />
-            <option value="$PROJECT_DIR$/10.fragments" />
-            <option value="$PROJECT_DIR$/11.toastnotifications" />
-            <option value="$PROJECT_DIR$/12.statusbarnotification" />
-            <option value="$PROJECT_DIR$/13.dialogotification" />
-            <option value="$PROJECT_DIR$/14.assets&amp;resources" />
-            <option value="$PROJECT_DIR$/15.interactivitycommunication" />
-            <option value="$PROJECT_DIR$/16.intent&amp;filters" />
-            <option value="$PROJECT_DIR$/17.broadcast&amp;receivers" />
-            <option value="$PROJECT_DIR$/18.sharedpreferences" />
-            <option value="$PROJECT_DIR$/19.filemanipulation" />
-            <option value="$PROJECT_DIR$/2.layouts&amp;views" />
-            <option value="$PROJECT_DIR$/20.sqlite" />
-            <option value="$PROJECT_DIR$/21.contentprovider" />
-            <option value="$PROJECT_DIR$/3.1.uicontrols" />
-            <option value="$PROJECT_DIR$/3.2test" />
-            <option value="$PROJECT_DIR$/3.xmllayoutaccessingthrjava" />
-            <option value="$PROJECT_DIR$/4.adapterviews" />
-            <option value="$PROJECT_DIR$/5.customviews" />
-            <option value="$PROJECT_DIR$/6.animations" />
-            <option value="$PROJECT_DIR$/7.activitylifecycle" />
-            <option value="$PROJECT_DIR$/8.handellingruntimechanges" />
-            <option value="$PROJECT_DIR$/9.handellingruntimechangesbyown" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/layouttest" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

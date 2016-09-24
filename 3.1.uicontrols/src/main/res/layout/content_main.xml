@@ -130,8 +130,7 @@
             android:id="@+id/AutoTxtView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:completionHint="AutoCompTxtVw" />
-
+            android:completionHint="Enter Sex (AutoComp)" />
 
     </LinearLayout>
 

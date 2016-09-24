@@ -13,7 +13,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.RatingBar;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -41,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText editText = (EditText) findViewById(R.id.EdtTxt);
         edittextinput = editText.getText().toString();
-        Log.v("UIControl", "edittextinput :" + edittextinput);
+        Log.v("@UIControl", "edittextinput :" + edittextinput);
 
         findViewById(R.id.Btn).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.AutoTxtView);
-
         ArrayList<String> sex = new ArrayList<>();
         sex.add("MALE");
         sex.add("FEMALE");
@@ -62,10 +64,39 @@ public class MainActivity extends AppCompatActivity {
         autoCompleteTextView.setAdapter(adapter);
         autoCompleteTextView.setThreshold(1);
         String Selection = String.valueOf(autoCompleteTextView.getListSelection());
-        Log.v("UIControl", "AutoCompleteTextView Selection :" + Selection);
+        Log.v("@UIControl", "AutoCompleteTextView Selection :" + Selection);
+        TextView textView = (TextView) findViewById(R.id.TxtView);
+        textView.setText(Selection);
 
 
+        Switch mySwitch = (Switch) findViewById(R.id.Switch);
+        mySwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
+                if (isChecked) {
+                    findViewById(R.id.TxtView).setBackgroundColor(400);
+                 /*   TextView switchTxtView = (TextView) findViewById(R.id.TxtView);
+                    switchTxtView.setBackgroundColor(500); */
+                    Log.v("@UIControl", "Current Switch Status :" + "Checked");
+                } else {
+                    Log.v("@UIControl", "Current Switch Status :" + "Non Checked");
+                }
+            }
+        });
+
+        RatingBar ratingBar = (RatingBar) findViewById(R.id.RtngBar);
+        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+            @Override
+            public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
+
+                Log.v("@UIControl", "Current Rating is :" + rating);
+                ((TextView) findViewById(R.id.TxtView)).setText("Current Rating is " + String.valueOf(rating));
+
+            }
+        });
+
+        // My Code Ends here -->>
     }
 
     @Override
