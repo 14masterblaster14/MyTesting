@@ -11,10 +11,15 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+    String edittextinput;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,17 +40,30 @@ public class MainActivity extends AppCompatActivity {
         // My Code starts here -->>
 
         EditText editText = (EditText) findViewById(R.id.EdtTxt);
-        final String edittextinput = editText.getText().toString();
+        edittextinput = editText.getText().toString();
         Log.v("UIControl", "edittextinput :" + edittextinput);
 
         findViewById(R.id.Btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                TextView autoTextView = (TextView) findViewById(R.id.AutoTxtView);
-                autoTextView.setText(edittextinput);
+                TextView textView = (TextView) findViewById(R.id.TxtView);
+                textView.setText(edittextinput);
             }
         });
+
+        AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.AutoTxtView);
+
+        ArrayList<String> sex = new ArrayList<>();
+        sex.add("MALE");
+        sex.add("FEMALE");
+        sex.add("OTHERS");
+        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, sex);
+        autoCompleteTextView.setAdapter(adapter);
+        autoCompleteTextView.setThreshold(1);
+        String Selection = String.valueOf(autoCompleteTextView.getListSelection());
+        Log.v("UIControl", "AutoCompleteTextView Selection :" + Selection);
+
 
 
     }
