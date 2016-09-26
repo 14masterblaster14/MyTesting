@@ -15,9 +15,11 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.NumberPicker;
 import android.widget.RatingBar;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.TimePicker;
 
 import java.util.ArrayList;
 
@@ -92,10 +94,26 @@ public class MainActivity extends AppCompatActivity {
 
                 Log.v("@UIControl", "Current Rating is :" + rating);
                 ((TextView) findViewById(R.id.TxtView)).setText("Current Rating is " + String.valueOf(rating));
-
             }
         });
 
+
+        NumberPicker numberPicker = (NumberPicker) findViewById(R.id.NoPicker);
+        numberPicker.setMinValue(1);
+        numberPicker.setMaxValue(9);
+        numberPicker.setWrapSelectorWheel(false);
+        numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
+            @Override
+            public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
+
+                Log.v("@UIControl", " NumberPicker Old Value :" + oldVal);
+                Log.v("@UIControl", " NumberPicker New Value :" + newVal);
+            }
+        });
+
+        TimePicker timePicker = (TimePicker) findViewById(R.id.TmPicker);
+        /*int hour = timePicker.getHour();
+        int min = timePicker.getMinute();  */
         // My Code Ends here -->>
     }
 
