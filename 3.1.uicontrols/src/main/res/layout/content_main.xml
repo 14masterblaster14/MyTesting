@@ -59,9 +59,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="1"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
@@ -128,9 +127,14 @@
 
         <AutoCompleteTextView
             android:id="@+id/AutoTxtView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:completionHint="Enter Sex (AutoComp)" />
+
+        <ProgressBar
+            android:id="@+id/ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
@@ -145,7 +149,6 @@
             android:id="@+id/CheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
             android:text="I like it!!" />
 
         <RatingBar
@@ -160,10 +163,6 @@
 
         </NumberPicker>
 
-        <ProgressBar
-            android:id="@+id/ProgressBar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
     </LinearLayout>
 
 

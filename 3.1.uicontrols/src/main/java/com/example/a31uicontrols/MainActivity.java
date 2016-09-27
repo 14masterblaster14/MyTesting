@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
 
         TimePicker timePicker = (TimePicker) findViewById(R.id.TmPicker);
         /*int hour = timePicker.getHour();
-        int min = timePicker.getMinute();  */
+        int min = timePicker.getMinute(); */
         // My Code Ends here -->>
     }
 
