@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         showToast("onRestart");
     }
 
+    /*
     protected void onStart() {
         super.onStart();
         showToast("onStart");
@@ -77,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
         super.onStop();
         showToast("onStop");
     }
+    */
 
     protected void onDestroy() {
         super.onDestroy();
