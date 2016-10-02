@@ -1,6 +1,7 @@
 <application>
-  <component name="FileTypeManager" version="16">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="image" type="Images" />
       <mapping pattern="rotate" type="XML" />
     </extensionMap>
   </component>
