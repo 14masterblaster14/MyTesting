@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.uibycode/1.uibycode.iml" filepath="$PROJECT_DIR$/1.uibycode/1.uibycode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.1.fragments1/10.1.fragments1.iml" filepath="$PROJECT_DIR$/10.1.fragments1/10.1.fragments1.iml" />
       <module fileurl="file://$PROJECT_DIR$/10.fragments/10.fragments.iml" filepath="$PROJECT_DIR$/10.fragments/10.fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" filepath="$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" filepath="$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" />

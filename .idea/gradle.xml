@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1.uibycode" />
+            <option value="$PROJECT_DIR$/10.1.fragments1" />
             <option value="$PROJECT_DIR$/10.fragments" />
             <option value="$PROJECT_DIR$/11.toastnotifications" />
             <option value="$PROJECT_DIR$/12.statusbarnotification" />

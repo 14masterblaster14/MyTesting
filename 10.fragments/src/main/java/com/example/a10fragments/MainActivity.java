@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         android.app.FragmentManager manager = getFragmentManager();
         android.app.FragmentTransaction transaction = manager.beginTransaction();
         LoginFragment loginFragment = new LoginFragment();
-        transaction.add(R.id.Fragment_Container, loginFragment);
+    /*    transaction.add(R.id.Fragment_Container,loginFragment);
         transaction.commit();
 
         findViewById(R.id.Txt_New_User).setOnClickListener(new View.OnClickListener() {
@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 android.app.FragmentManager manager = getFragmentManager();
                 android.app.FragmentTransaction transaction = manager.beginTransaction();
                 RegistrationFragment registrationFragment = new RegistrationFragment();
-                transaction.replace(R.id.Fragment_Container, registrationFragment);
+                transaction.replace(R.id.Fragment_Container,registrationFragment);
                 transaction.commit();
-
+*/
             }
         }
