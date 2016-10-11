@@ -2,13 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
     android:orientation="vertical"
-    tools:context="com.example.a101fragments1.RegisterFragment">
+    tools:context="com.example.a102fragments2.RegisterFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="Register Fragment" />
 
     <EditText

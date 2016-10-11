@@ -2,32 +2,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
     android:orientation="vertical"
-    tools:context="com.example.a101fragments1.RegisterFragment">
+    tools:context="com.example.a102fragments2.LoginFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Register Fragment" />
+        android:layout_height="wrap_content"
+        android:text="Login Fragment" />
 
     <EditText
-        android:id="@+id/edtName"
+        android:id="@+id/edtUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name" />
+        android:hint="User Name"
+        android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/edtMobile"
+        android:id="@+id/edtUserPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Mobile"
-        android:inputType="phone" />
+        android:hint="Password"
+        android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register" />
+        android:text="Login" />
 
 </LinearLayout>

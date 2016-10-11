@@ -26,7 +26,12 @@ public class MainActivityFragment extends Fragment {
 
             }
         });
+        rootview.findViewById(R.id.Btn_Register).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+            }
+        });
         return rootview;
 
     }

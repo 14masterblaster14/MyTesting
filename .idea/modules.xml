@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.uibycode/1.uibycode.iml" filepath="$PROJECT_DIR$/1.uibycode/1.uibycode.iml" />
       <module fileurl="file://$PROJECT_DIR$/10.1.fragments1/10.1.fragments1.iml" filepath="$PROJECT_DIR$/10.1.fragments1/10.1.fragments1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/10.fragments/10.fragments.iml" filepath="$PROJECT_DIR$/10.fragments/10.fragments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.2.fragments2/10.2.fragments2.iml" filepath="$PROJECT_DIR$/10.2.fragments2/10.2.fragments2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.3.fragments3/10.3.fragments3.iml" filepath="$PROJECT_DIR$/10.3.fragments3/10.3.fragments3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.4.fragments4/10.4.fragments4.iml" filepath="$PROJECT_DIR$/10.4.fragments4/10.4.fragments4.iml" />
       <module fileurl="file://$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" filepath="$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" filepath="$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" filepath="$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" />
