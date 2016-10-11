@@ -3,7 +3,7 @@
     <option name="state">
       <GlobalState>
         <option name="preferXmlEditor" value="true" />
-        <option name="visible" value="false" />
+        <option name="showLint" value="true" />
       </GlobalState>
     </option>
   </component>
