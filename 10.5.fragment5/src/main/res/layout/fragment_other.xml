@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.a105fragment5.OtherFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Other Fragment!" />
+
+    <Button
+        android:id="@+id/btnMy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Fragment" />
+
+    <Button
+        android:id="@+id/btnTweety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tweety Fragment" />
+
+</>
