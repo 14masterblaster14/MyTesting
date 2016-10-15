@@ -14,37 +14,40 @@ public class MainActivity extends AppCompatActivity {
         showToast("onCreate");
     }
 
-    protected void onRestart(){
+    protected void onRestart() {
         super.onRestart();
         showToast("onRestart");
     }
 
-    protected void onStart(){
+    protected void onStart() {
         super.onStart();
         showToast("onStart");
     }
 
-    protected void onResume(){
+    protected void onResume() {
         super.onResume();
         showToast("onResume");
     }
-    protected void onPause(){
+
+    protected void onPause() {
         super.onPause();
         showToast("onPause");
     }
-    protected void onStop(){
+
+    protected void onStop() {
         super.onStop();
         showToast("onStop");
     }
-    protected void onDestroy(){
+
+    protected void onDestroy() {
         super.onDestroy();
         showToast("onDestroy");
     }
 
-    private void showToast (String msg){
+    private void showToast(String msg) {
 
-        Toast.makeText(this,msg,Toast.LENGTH_SHORT).show();
-        Log.v ("ActivityLifeCycle",msg);
+        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
+        Log.v("ActivityLifeCycle", msg);
 
     }
 }

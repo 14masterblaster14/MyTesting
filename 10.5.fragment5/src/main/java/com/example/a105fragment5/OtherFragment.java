@@ -31,7 +31,14 @@ public class OtherFragment extends Fragment {
         rootView.findViewById(R.id.btnMy).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadFragment
+                loadFragment(R.mipmap.ic_launcher);
+            }
+        });
+
+        rootView.findViewById(R.id.btnTweety).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(R.drawable.tweety);
             }
         });
         return rootView;
@@ -40,7 +47,7 @@ public class OtherFragment extends Fragment {
     private void loadFragment(int image) {
         FragmentManager manager = getActivity().getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
-        transaction.replace(R.id.f);
+        //transaction.replace(R.id.frameContainer,AllFragment.getInstance(image));
         transaction.commit();
 
     }

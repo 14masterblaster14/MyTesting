@@ -40,33 +40,34 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal">
-    <Button
-        android:id="@+id/BtnInsert"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/BtmMrgn"
-        android:text="@string/BtnInsert" />
 
-    <Button
-        android:id="@+id/BtnUpdt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/BtmMrgn"
-        android:text="@string/BtnUpdt" />
+        <Button
+            android:id="@+id/BtnInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="@string/BtnInsert" />
 
-    <Button
-        android:id="@+id/BtnQuery"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/BtmMrgn"
-        android:text="@string/BtnQuery" />
+        <Button
+            android:id="@+id/BtnUpdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="@string/BtnUpdt" />
 
-    <Button
-        android:id="@+id/BtnDelete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/BtmMrgn"
-        android:text="@string/BtnDelete" />
+        <Button
+            android:id="@+id/BtnQuery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="@string/BtnQuery" />
+
+        <Button
+            android:id="@+id/BtnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="@string/BtnDelete" />
 
     </LinearLayout>
 
