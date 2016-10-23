@@ -15,7 +15,7 @@ import android.view.ViewGroup;
  */
 public class OtherFragment extends Fragment {
 
-
+    String message;
     public OtherFragment() {
         // Required empty public constructor
     }
@@ -31,23 +31,28 @@ public class OtherFragment extends Fragment {
         rootView.findViewById(R.id.btnMy).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadFragment(R.mipmap.ic_launcher);
+
+                message = "My Fragment";
+                loadFragment(R.mipmap.ic_launcher, message);
             }
         });
 
         rootView.findViewById(R.id.btnTweety).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadFragment(R.drawable.tweety);
+
+                message = "Tweety Fragment";
+                loadFragment(R.drawable.tweety, message);
             }
         });
         return rootView;
     }
 
-    private void loadFragment(int image) {
+
+    private void loadFragment(int image, String message) {
         FragmentManager manager = getActivity().getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
-        //transaction.replace(R.id.frameContainer,AllFragment.getInstance(image));
+        transaction.replace(R.id.frameContainer, AllFragment.getInstance(image, message));
         transaction.commit();
 
     }
