@@ -42,8 +42,7 @@ public class AllFragment extends Fragment {
         ((ImageView) rootView.findViewById(R.id.imageView)).setImageResource(getArguments().getInt(KEY_IMAGE));
 
         setText(rootView);
-        //  TextView textView = (TextView) rootView.findViewById(R.id.All_Txt);
-        //  textView.setText(bundle.getString("myData"));
+
         return rootView;
     }
 

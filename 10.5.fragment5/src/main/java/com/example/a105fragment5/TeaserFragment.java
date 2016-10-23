@@ -12,10 +12,10 @@ import android.view.ViewGroup;
  * A simple {@link Fragment} subclass.
  */
 
-public class TweetyFragment extends Fragment {
+public class TeaserFragment extends Fragment {
 
 
-    public TweetyFragment() {
+    public TeaserFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class TweetyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tweety, container, false);
+        return inflater.inflate(R.layout.fragment_teaser, container, false);
     }
 
 }

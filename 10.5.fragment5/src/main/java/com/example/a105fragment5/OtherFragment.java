@@ -45,6 +45,27 @@ public class OtherFragment extends Fragment {
                 loadFragment(R.drawable.tweety, message);
             }
         });
+
+        rootView.findViewById(R.id.btnTeaser).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                FragmentManager manager = getActivity().getSupportFragmentManager();
+                FragmentTransaction transaction = manager.beginTransaction();
+                transaction.replace(R.id.frameContainer1, new TeaserFragment());
+            }
+
+        });
+
+        rootView.findViewById(R.id.btnFight).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                FragmentManager manager = getActivity().getSupportFragmentManager();
+                FragmentTransaction transaction = manager.beginTransaction();
+                transaction.replace(R.id.frameContainer1, new FightFragment());
+            }
+        });
         return rootView;
     }
 

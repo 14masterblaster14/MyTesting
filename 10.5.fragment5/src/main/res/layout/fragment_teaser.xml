@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a105fragment5.MyFragment">
+    tools:context="com.example.a105fragment5.TeaserFragment">
 
     <!-- TODO: Update blank fragment layout  -->
 
@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/teaser" />
 
 
 </FrameLayout>

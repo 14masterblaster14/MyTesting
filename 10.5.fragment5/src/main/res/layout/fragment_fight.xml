@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a105fragment5.TweetyFragment">
+    tools:context="com.example.a105fragment5.FightFragment">
 
     <!-- TODO: Update blank fragment layout
 
@@ -15,5 +15,5 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/tweety" />
+        android:src="@drawable/fight" />
 </FrameLayout>
