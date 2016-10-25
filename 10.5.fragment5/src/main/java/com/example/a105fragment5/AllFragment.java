@@ -55,7 +55,7 @@ public class AllFragment extends Fragment {
 
             // Inline code for above 2 lines
 
-            ((TextView) rootView.findViewById(R.id.All_Txt)).setText(bundle.getString("myData"));
+            ((TextView) rootView.findViewById(R.id.All_Txt)).setText(bundle.getString(KEY_MY_DATA));
         }
     }
 }

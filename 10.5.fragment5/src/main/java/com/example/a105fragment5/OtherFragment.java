@@ -50,9 +50,8 @@ public class OtherFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                FragmentManager manager = getActivity().getSupportFragmentManager();
-                FragmentTransaction transaction = manager.beginTransaction();
-                transaction.replace(R.id.frameContainer1, new TeaserFragment());
+                runTeasreFragTxn();
+
             }
 
         });
@@ -63,12 +62,21 @@ public class OtherFragment extends Fragment {
 
                 FragmentManager manager = getActivity().getSupportFragmentManager();
                 FragmentTransaction transaction = manager.beginTransaction();
-                transaction.replace(R.id.frameContainer1, new FightFragment());
+                transaction.replace(R.id.frameContainer, new FightFragment());
+                transaction.commit();
             }
         });
+
         return rootView;
     }
 
+    private void runTeasreFragTxn() {
+        FragmentManager manager = getActivity().getSupportFragmentManager();
+        FragmentTransaction transaction = manager.beginTransaction();
+        transaction.replace(R.id.frameContainer, new TeaserFragment());
+        transaction.commit();
+
+    }
 
     private void loadFragment(int image, String message) {
         FragmentManager manager = getActivity().getSupportFragmentManager();
