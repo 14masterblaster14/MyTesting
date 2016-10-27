@@ -4,6 +4,7 @@
       <GlobalState>
         <option name="preferXmlEditor" value="true" />
         <option name="showLint" value="true" />
+        <option name="visible" value="false" />
       </GlobalState>
     </option>
   </component>
