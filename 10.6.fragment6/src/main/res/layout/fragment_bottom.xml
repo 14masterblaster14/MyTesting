@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.a106fragment6.BottomFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Bottom Fragment"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Teaser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaser" />
+
+        <Button
+            android:id="@+id/Fight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fight" />
+
+    </LinearLayout>
+
+</LinearLayout>
