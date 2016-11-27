@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
         Log.v("@UIControl", " DatePicker Default Day Value :" + day);
 
         DatePicker datePicker1 = (DatePicker) findViewById(R.id.DtPicker);
-
     }
 
     public void setCurrentTimeOnView() {
