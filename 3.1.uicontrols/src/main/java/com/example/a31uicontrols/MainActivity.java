@@ -1,5 +1,6 @@
 package com.example.a31uicontrols;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
@@ -13,9 +14,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.NumberPicker;
+import android.widget.RadioButton;
 import android.widget.RatingBar;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -44,18 +48,22 @@ public class MainActivity extends AppCompatActivity {
 
         // My Code starts here -->>
 
-        EditText editText = (EditText) findViewById(R.id.EdtTxt);
-        edittextinput = editText.getText().toString();
-        Log.v("@UIControl", "edittextinput :" + edittextinput);
 
         findViewById(R.id.Btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                EditText editText = (EditText) findViewById(R.id.EdtTxt);
+                edittextinput = editText.getText().toString();
+                //OR
+                // edittextinput = String.valueOf(editText.getText());
+                Log.v("@UIControl", "edittextinput :" + edittextinput);
+
                 TextView textView = (TextView) findViewById(R.id.TxtView);
                 textView.setText(edittextinput);
             }
         });
+
 
         AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.AutoTxtView);
         ArrayList<String> sex = new ArrayList<>();
@@ -66,26 +74,70 @@ public class MainActivity extends AppCompatActivity {
         autoCompleteTextView.setAdapter(adapter);
         autoCompleteTextView.setThreshold(1);
         String Selection = String.valueOf(autoCompleteTextView.getListSelection());
+
         Log.v("@UIControl", "AutoCompleteTextView Selection :" + Selection);
-        TextView textView = (TextView) findViewById(R.id.TxtView);
-        textView.setText(Selection);
 
 
-        Switch mySwitch = (Switch) findViewById(R.id.Switch);
-        mySwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        findViewById(R.id.ImgBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                ImageView imageView = (ImageView) findViewById(R.id.ImgView);
+
+                /*
+                    if(imageView.getId() == R.drawable.image)
+                    {
+
+                    }else{
+
+                    }
+                */
+                imageView.setImageResource(R.drawable.tweety);
+            }
+        });
+
+
+        ((RadioButton) findViewById(R.id.RadioBtn1)).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
                 if (isChecked) {
-                    findViewById(R.id.TxtView).setBackgroundColor(400);
-                 /*   TextView switchTxtView = (TextView) findViewById(R.id.TxtView);
-                    switchTxtView.setBackgroundColor(500); */
-                    Log.v("@UIControl", "Current Switch Status :" + "Checked");
+                    Log.v("@UIControl", "Radiobutton1 is: ON ");
+
                 } else {
-                    Log.v("@UIControl", "Current Switch Status :" + "Non Checked");
+                    Log.v("@UIControl", "Radiobutton1 : OFF ");
                 }
             }
         });
+
+        ((Switch) findViewById(R.id.Switch)).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    Log.v("@UIControl", "Switch is: ON ");
+                    findViewById(R.id.TxtViewHdr).setBackgroundColor(100);
+
+                } else {
+                    Log.v("@UIControl", "Switch is : OFF ");
+                    findViewById(R.id.TxtViewHdr).setBackgroundColor(Color.RED);
+
+                }
+            }
+        });
+
+        CheckBox checkbox = (CheckBox) findViewById(R.id.CheckBox);
+        checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+                if (isChecked) {
+                    Log.v("@UIControl", "Checkbox is : Checked ");
+                } else {
+                    Log.v("@UIControl", "Checkbox is : UnChecked ");
+                }
+            }
+        });
+
 
         RatingBar ratingBar = (RatingBar) findViewById(R.id.RtngBar);
         ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
@@ -93,27 +145,12 @@ public class MainActivity extends AppCompatActivity {
             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
 
                 Log.v("@UIControl", "Current Rating is :" + rating);
+
                 ((TextView) findViewById(R.id.TxtView)).setText("Current Rating is " + String.valueOf(rating));
             }
         });
 
 
-        NumberPicker numberPicker = (NumberPicker) findViewById(R.id.NoPicker);
-        numberPicker.setMinValue(1);
-        numberPicker.setMaxValue(9);
-        numberPicker.setWrapSelectorWheel(false);
-        numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
-            @Override
-            public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
-
-                Log.v("@UIControl", " NumberPicker Old Value :" + oldVal);
-                Log.v("@UIControl", " NumberPicker New Value :" + newVal);
-            }
-        });
-
-        TimePicker timePicker = (TimePicker) findViewById(R.id.TmPicker);
-        /*int hour = timePicker.getHour();
-        int min = timePicker.getMinute(); */
         // My Code Ends here -->>
     }
 

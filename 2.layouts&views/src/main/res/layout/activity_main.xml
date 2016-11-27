@@ -19,7 +19,7 @@
         android:layout_marginBottom="4dp"
         android:background="#12c700"
         android:gravity="center"
-        android:text="Linear   Layout"
+        android:text="Linear Layout"
         android:textAllCaps="true"
         android:textColor="#1a237e"
         android:textSize="21sp"

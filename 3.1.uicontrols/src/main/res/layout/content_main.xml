@@ -27,12 +27,6 @@
         android:textSize="21sp"
         android:textStyle="bold" />
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
         <!--
     <EditText
 
@@ -43,8 +37,9 @@
 
         <EditText
             android:id="@+id/EdtTxt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:background="#ffee58"
             android:hint="This is Edittext..." />
 
@@ -52,15 +47,31 @@
             android:id="@+id/TxtView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:background="#F48FB1"
-            android:hint="View O/p" />
+            android:hint="View O/p"
+            android:text="View O/P" />
 
-    </LinearLayout>
+
+    <Button
+        android:id="@+id/Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Button" />
+
+    <AutoCompleteTextView
+        android:id="@+id/AutoTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F48FB1"
+        android:completionHint="Enter Sex" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="4dp"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
@@ -78,11 +89,6 @@
 
         </ImageSwitcher>
 
-        <Button
-            android:id="@+id/Btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
 
         <ImageButton
             android:id="@+id/ImgBtn"
@@ -119,28 +125,35 @@
                     android:textOff="Stop"
                     android:textOn="Start" />   -->
 
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
         <Switch
             android:id="@+id/Switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:checked="false" />
 
-        <AutoCompleteTextView
-            android:id="@+id/AutoTxtView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:completionHint="Enter Sex (AutoComp)" />
+
 
         <ProgressBar
             android:id="@+id/ProgressBar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" />
 
     </LinearLayout>
 
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center_horizontal">
@@ -156,29 +169,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <NumberPicker
-            android:id="@+id/NoPicker"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-        </NumberPicker>
-
     </LinearLayout>
 
 
-    <DatePicker
-        android:id="@+id/DtPicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </DatePicker>
-
-    <TimePicker
-        android:id="@+id/TmPicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1">
-
-    </TimePicker>
 
 </LinearLayout>
