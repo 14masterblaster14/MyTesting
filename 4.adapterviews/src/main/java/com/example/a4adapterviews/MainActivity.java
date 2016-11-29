@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-      /*  useArrayAdapter();  */
-      /*  useCustomAdapter();  */
+       /* useArrayAdapter(); */
+        useCustomAdapter();
 
 
     }
@@ -50,21 +50,21 @@ public class MainActivity extends AppCompatActivity {
         dataset.add(item1);
 
         MyItems item2 = new MyItems();
-        item1.setItemID(2);
-        item1.setImageID(R.drawable.fight);
-        item1.setTextName("Bangladesh");
+        item2.setItemID(2);
+        item2.setImageID(R.drawable.fight);
+        item2.setTextName("Bangladesh");
         dataset.add(item2);
 
         MyItems item3 = new MyItems();
-        item1.setItemID(3);
-        item1.setImageID(R.mipmap.ic_launcher);
-        item1.setTextName("China");
+        item3.setItemID(3);
+        item3.setImageID(R.mipmap.ic_launcher);
+        item3.setTextName("China");
         dataset.add(item3);
 
         MyItems item4 = new MyItems();
-        item1.setItemID(4);
-        item1.setImageID(R.mipmap.image);
-        item1.setTextName("Denmark");
+        item4.setItemID(4);
+        item4.setImageID(R.mipmap.image);
+        item4.setTextName("Denmark");
         dataset.add(item4);
 
         MyAdapter adapter = new MyAdapter(this, dataset);
