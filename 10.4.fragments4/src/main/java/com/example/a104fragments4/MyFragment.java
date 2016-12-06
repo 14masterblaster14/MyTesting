@@ -28,7 +28,7 @@ public class MyFragment extends Fragment {
        /* return inflater.inflate(R.layout.fragment_my, container, false); */
         final View rootView = inflater.inflate(R.layout.fragment_my, container, false);
 
-    /*    animate(R.anim.rotate,rootView.findViewById(R.id.textHeader));
+        animate(R.anim.rotate, rootView.findViewById(R.id.textHeader));
 
         rootView.findViewById(R.id.btnLogin).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,10 +48,10 @@ public class MyFragment extends Fragment {
                 MainActivity hostActivity = (MainActivity)
                         getActivity();
                 hostActivity.runFragmentTxn(R.id.frameContainer,
-                        new LoginFragment());
+                        new RegisterFragment());
             }
         });
-    */
+
         return rootView;
     }
 

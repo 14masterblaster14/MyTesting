@@ -3,6 +3,7 @@ package com.example.a9handellingruntimechangesbyown;
 import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -34,55 +35,50 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
     public void onConfigurationChanged(Configuration newConfig) {
 
+        Log.v("@Sachin", " I m here");
         super.onConfigurationChanged(newConfig);
 
         if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
 
             changeImage(R.drawable.teaser);
         } else if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            changeImage(R.drawable.fight);
-        } else {
             changeImage(R.drawable.image);
+        } else {
+            changeImage(R.drawable.fight);
         }
 
         showToast("onConfigurationChanged");
-        TextView txtvw = (TextView) findViewById(R.id.TxtTime);
-        txtvw.setText("" + showTime);
+
     }
 
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
 
-    protected void onRestart() {
-        super.onRestart();
-        showToast("onRestart");
+        final TextView textView = (TextView) findViewById(R.id.TxtTime);
+        outState.putString("Key_My_Data", textView.getText().toString());
     }
 
-    /*
-    protected void onStart() {
-        super.onStart();
-        showToast("onStart");
-    }
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        if (savedInstanceState != null) {
+            final TextView textView = (TextView) findViewById(R.id.TxtTime);
+            String myData = savedInstanceState.getString("Key_My_Data");
+            textView.setText(myData);
 
-    protected void onResume() {
-        super.onResume();
-        showToast("onResume");
+        }
     }
-
-    protected void onPause() {
-        super.onPause();
-        showToast("onPause");
-    }
-
-    protected void onStop() {
-        super.onStop();
-        showToast("onStop");
-    }
-    */
 
     protected void onDestroy() {
         super.onDestroy();
         showToast("onDestroy");
+    }
+
+    protected void onRestart() {
+        super.onRestart();
+        showToast("onRestart");
     }
 
     private void changeImage(int id) {
@@ -95,4 +91,5 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
+
 }

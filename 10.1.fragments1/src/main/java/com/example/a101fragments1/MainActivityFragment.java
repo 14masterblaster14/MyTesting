@@ -2,6 +2,7 @@ package com.example.a101fragments1;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,19 +20,6 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
        /* return inflater.inflate(R.layout.fragment_main, container, false); */
         final View rootview = inflater.inflate(R.layout.fragment_main, container, false);
-
-        rootview.findViewById(R.id.Btn_Login).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-        rootview.findViewById(R.id.Btn_Register).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
         return rootview;
 
     }

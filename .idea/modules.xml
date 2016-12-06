@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/10.4.fragments4/10.4.fragments4.iml" filepath="$PROJECT_DIR$/10.4.fragments4/10.4.fragments4.iml" />
       <module fileurl="file://$PROJECT_DIR$/10.5.fragment5/10.5.fragment5.iml" filepath="$PROJECT_DIR$/10.5.fragment5/10.5.fragment5.iml" />
       <module fileurl="file://$PROJECT_DIR$/10.6.fragment6/10.6.fragment6.iml" filepath="$PROJECT_DIR$/10.6.fragment6/10.6.fragment6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.2snackbar/11.2snackbar.iml" filepath="$PROJECT_DIR$/11.2snackbar/11.2snackbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" filepath="$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" filepath="$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" filepath="$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" />
@@ -25,8 +26,9 @@
       <module fileurl="file://$PROJECT_DIR$/3.2.uicontrols/3.2.uicontrols.iml" filepath="$PROJECT_DIR$/3.2.uicontrols/3.2.uicontrols.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" filepath="$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/3Remove/3Remove.iml" filepath="$PROJECT_DIR$/3Remove/3Remove.iml" />
-      <module fileurl="file://$PROJECT_DIR$/4.1.adapterviews/4.1.adapterviews.iml" filepath="$PROJECT_DIR$/4.1.adapterviews/4.1.adapterviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/4.1adapterviews/4.1adapterviews.iml" filepath="$PROJECT_DIR$/4.1adapterviews/4.1adapterviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.1adaptervviewsgridview/4.1adaptervviewsgridview.iml" filepath="$PROJECT_DIR$/4.1adaptervviewsgridview/4.1adaptervviewsgridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.2adapterviewsbuttonadapter/4.2adapterviewsbuttonadapter.iml" filepath="$PROJECT_DIR$/4.2adapterviewsbuttonadapter/4.2adapterviewsbuttonadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/4.adapterviews/4.adapterviews.iml" filepath="$PROJECT_DIR$/4.adapterviews/4.adapterviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/5.customviews/5.customviews.iml" filepath="$PROJECT_DIR$/5.customviews/5.customviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/6.animations/6.animations.iml" filepath="$PROJECT_DIR$/6.animations/6.animations.iml" />
