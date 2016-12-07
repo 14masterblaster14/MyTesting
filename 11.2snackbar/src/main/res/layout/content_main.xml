@@ -14,7 +14,17 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:id="@+id/TxtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
         android:text="Hello World!" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TxtView"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
