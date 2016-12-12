@@ -9,19 +9,24 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Select Countries"
         android:textSize="40sp" />
 
     <RadioGroup
+        android:id="@+id/SelectCountry"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
 
         <RadioButton
+            android:id="@+id/America"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="America" />
 
         <RadioButton
+            android:id="@+id/China"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="China" />
