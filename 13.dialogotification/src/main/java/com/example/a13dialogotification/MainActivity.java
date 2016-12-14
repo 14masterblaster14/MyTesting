@@ -1,6 +1,7 @@
 package com.example.a13dialogotification;
 
 import android.app.Activity;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +19,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                //Simple Dialog without fragment --> Not Recommended
+                // showDialog();
+                //Simple Dialog with fragment
                 showDialog(MyDialogFragment.TAG_ALERT);
+
             }
         });
 
@@ -65,6 +70,16 @@ public class MainActivity extends AppCompatActivity {
         showToast(radioButtonAmerica.isChecked() ? "America" : "China");
         */
     }
+
+    private void showDialog() //--> Not Recommended
+    {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setIcon(R.mipmap.ic_launcher)
+                .setMessage("Simple Alert Dialog")
+                .setTitle("Title");
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    } //--> Not Recommended
 
     private void showDialog(String tag) {
 
