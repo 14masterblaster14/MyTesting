@@ -56,19 +56,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-      /*  findViewById(R.id.SelectCountry).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                RadioButton radioButtonAmerica = (RadioButton) findViewById(R.id.America);
-                showToast(radioButtonAmerica.isChecked() ? "America" : "China");
-           }
-        });  */
-
-      /*
-        RadioButton radioButtonAmerica = (RadioButton) findViewById(R.id.America);
-        showToast(radioButtonAmerica.isChecked() ? "America" : "China");
-        */
     }
 
     private void showDialog() //--> Not Recommended

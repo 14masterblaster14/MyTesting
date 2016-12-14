@@ -131,7 +131,7 @@ public class MyDialogFragment extends DialogFragment {
 
         LayoutInflater inflator = getActivity().getLayoutInflater();
 
-        View myView = inflator.inflate(R.layout.fragment_my_dialog, null, false);
+        final View myView = inflator.inflate(R.layout.fragment_my_dialog, null, false);
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity()).setView(myView);
 
         myView.findViewById(R.id.America).setOnClickListener(new View.OnClickListener() {
@@ -140,6 +140,7 @@ public class MyDialogFragment extends DialogFragment {
                 showToast("America");
             }
         });
+
 
         return builder.create();
     }

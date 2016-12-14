@@ -1,6 +1,7 @@
 package com.example.a14assetsresources;
 
 import android.content.res.AssetManager;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,6 +17,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         readAssets();
+
+        String nameButton = getResources().getString(R.string.Submit_Btn);
+        Log.i("@Assets&Resources", "Name of Button" + nameButton);
+
+        int pureWhite = getResources().getColor(R.color.pureWhite); // Depricated method
+        pureWhite = ContextCompat.getColor(this, R.color.pureWhite);
 
         String[] cities = getResources().getStringArray(R.array.Cities);
     }

@@ -10,6 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.a14assetsresources.MainActivity">
 
+    <TextView style="@style/simpleStyle" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,7 +24,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Submit" />
+        android:text="@string/Submit_Btn" />
 
     <TextView
         android:layout_width="match_parent"
