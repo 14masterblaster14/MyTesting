@@ -9,6 +9,12 @@ import android.widget.RadioButton;
 
 public class MainActivity extends AppCompatActivity {
 
+    /*
+    * 1. Simply starting new activity
+    * 2. Sending data to new activity
+    * 3. Getting data in new activity
+    * 4. Throwing data back from new activity to previous activity
+     */
     public static final String KEY_NEXT_COLOR = "color";
     public static final int REQ_NEXT_ID = 1234;
 
@@ -24,11 +30,20 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this, NextActivity.class);
 
+                // 1. Simply starting new activity
+                //     startActivity(intent);
+
+
+                // 2. Sending data to new activity
                 RadioButton radioButton = (RadioButton) findViewById(R.id.RadioRed);
                 Bundle bundle = new Bundle();
                 bundle.putString(KEY_NEXT_COLOR, radioButton.isChecked() ? "Red" : "Green");
 
                 intent.putExtras(bundle);
+                //startActivity(intent);
+
+                //4. Expecting the response from the next activity
+
                 startActivityForResult(intent, REQ_NEXT_ID);
 
             }
