@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">17.Broadcast&amp;Receivers</string>
+    <string name="BtnFireBroadcast">Fire Broadcast</string>
 </resources>
