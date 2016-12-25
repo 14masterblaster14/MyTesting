@@ -7,4 +7,5 @@
     <string name="BtnQuery">QUERY</string>
     <string name="BtnDelete">DELETE</string>
     <string name="BtnShowTbl">SHOW TABLE VALUES</string>
+    <string name="BtnShowTbl1">Show Table_Raw</string>
 </resources>

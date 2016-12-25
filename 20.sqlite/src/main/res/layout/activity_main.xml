@@ -33,7 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/BtmMrgn"
         android:hint="@string/EdtRollNo"
-        android:inputType="number" />
+        android:inputType="number"
+        android:maxLength="4" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -46,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/BtmMrgn"
-            android:text="@string/BtnInsert" />
+            android:text="Insert" />
 
         <Button
             android:id="@+id/BtnUpdt"
@@ -69,19 +70,51 @@
             android:layout_marginBottom="@dimen/BtmMrgn"
             android:text="@string/BtnDelete" />
 
+        <Button
+            android:id="@+id/BtnRawInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="Raw Insert" />
+
     </LinearLayout>
 
-    <Button
-        android:id="@+id/BtnShowTbl"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/BtmMrgn"
-        android:text="@string/BtnShowTbl" />
+        android:gravity="center">
 
-    <ListView
-        android:id="@+id/LstView"
+        <Button
+            android:id="@+id/BtnShowTbl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="@string/BtnShowTbl" />
+
+        <Button
+            android:id="@+id/BtnShowTbl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="Show Table by Raw" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
+        <ListView
+            android:id="@+id/ListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ListView>
+
+        <TextView
+            android:id="@+id/TxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
 
 </LinearLayout>

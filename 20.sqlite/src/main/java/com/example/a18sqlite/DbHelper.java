@@ -15,13 +15,13 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+        // This method will be called only once.
         db.execSQL("Create table UserTable (UserName text, RollNo number Primary key asc )");
 
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
+        // This method will be called only if the "version" value is different in DbHelpers constructor .
     }
 }
