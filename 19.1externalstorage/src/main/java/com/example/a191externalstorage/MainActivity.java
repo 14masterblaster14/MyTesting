@@ -142,11 +142,11 @@ public class MainActivity extends AppCompatActivity {
         ((TextView) findViewById(R.id.TxtView)).setText(stringBuilder.toString());
 
         Log.i("@ExternalStorage", "Cache Dir --> " + getCache_Dir);
-        //
+        //  /data/data/com.example.a191externalstorage/cache
         Log.i("@ExternalStorage", "Private files Dir --> " + getPrivatefiles_Dir);
-        //getCacheDir - /data/data/com.example.a19filemanipulation/cache
+        //  /storage/emulated/0/Android/data/com.example.a191externalstorage/files/my
         Log.i("@ExternalStorage", "Public files Dir --> " + getPublicfiles_Dir);
-        //getFilesDir - /data/data/com.example.a19filemanipulation/files
+        //  /storage/emulated/0/Download
 
     }
 
