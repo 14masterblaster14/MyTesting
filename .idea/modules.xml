@@ -13,15 +13,19 @@
       <module fileurl="file://$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" filepath="$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" filepath="$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" filepath="$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" />
-      <module fileurl="file://$PROJECT_DIR$/14.assets&amp;resources/14.assets&amp;resources.iml" filepath="$PROJECT_DIR$/14.assets&amp;resources/14.assets&amp;resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14.assetsandresources/14.assetsandresources.iml" filepath="$PROJECT_DIR$/14.assetsandresources/14.assetsandresources.iml" />
       <module fileurl="file://$PROJECT_DIR$/15.interactivitycommunication/15.interactivitycommunication.iml" filepath="$PROJECT_DIR$/15.interactivitycommunication/15.interactivitycommunication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/16.intent&amp;filters/16.intent&amp;filters.iml" filepath="$PROJECT_DIR$/16.intent&amp;filters/16.intent&amp;filters.iml" />
-      <module fileurl="file://$PROJECT_DIR$/17.broadcast&amp;receivers/17.broadcast&amp;receivers.iml" filepath="$PROJECT_DIR$/17.broadcast&amp;receivers/17.broadcast&amp;receivers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16.intentandfilters/16.intentandfilters.iml" filepath="$PROJECT_DIR$/16.intentandfilters/16.intentandfilters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17.1remove/17.1remove.iml" filepath="$PROJECT_DIR$/17.1remove/17.1remove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17.broadcastandreceivers/17.broadcastandreceivers.iml" filepath="$PROJECT_DIR$/17.broadcastandreceivers/17.broadcastandreceivers.iml" />
       <module fileurl="file://$PROJECT_DIR$/18.sharedpreferences/18.sharedpreferences.iml" filepath="$PROJECT_DIR$/18.sharedpreferences/18.sharedpreferences.iml" />
-      <module fileurl="file://$PROJECT_DIR$/19.filemanipulation/19.filemanipulation.iml" filepath="$PROJECT_DIR$/19.filemanipulation/19.filemanipulation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2.layouts&amp;views/2.layouts&amp;views.iml" filepath="$PROJECT_DIR$/2.layouts&amp;views/2.layouts&amp;views.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19.1externalstorage/19.1externalstorage.iml" filepath="$PROJECT_DIR$/19.1externalstorage/19.1externalstorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19.internalstoragefilemanipulation/19.internalstoragefilemanipulation.iml" filepath="$PROJECT_DIR$/19.internalstoragefilemanipulation/19.internalstoragefilemanipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.layoutsandviews/2.layoutsandviews.iml" filepath="$PROJECT_DIR$/2.layoutsandviews/2.layoutsandviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/20.sqlite/20.sqlite.iml" filepath="$PROJECT_DIR$/20.sqlite/20.sqlite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/21.contentprovider/21.contentprovider.iml" filepath="$PROJECT_DIR$/21.contentprovider/21.contentprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21.1contactapp/21.1contactapp.iml" filepath="$PROJECT_DIR$/21.1contactapp/21.1contactapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21.contentprovidercreation/21.contentprovidercreation.iml" filepath="$PROJECT_DIR$/21.contentprovidercreation/21.contentprovidercreation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22.service/22.service.iml" filepath="$PROJECT_DIR$/22.service/22.service.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.1.uicontrols/3.1.uicontrols.iml" filepath="$PROJECT_DIR$/3.1.uicontrols/3.1.uicontrols.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.2.uicontrols/3.2.uicontrols.iml" filepath="$PROJECT_DIR$/3.2.uicontrols/3.2.uicontrols.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" filepath="$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" />
