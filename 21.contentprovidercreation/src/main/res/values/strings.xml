@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">19.ContentProvider</string>
+    <string name="EdtUsrName">Edit User Name</string>
+    <string name="EdtRollNo">Edit Roll Number</string>
+    <string name="BtnUpdt">Update</string>
+    <string name="BtnQuery">Querry</string>
+    <string name="BtnDelete">Delete</string>
+    <string name="BtnShowTbl">Show Table</string>
 </resources>
