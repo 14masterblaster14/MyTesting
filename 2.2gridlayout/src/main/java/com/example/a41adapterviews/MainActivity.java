@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                                R.drawable.s9,
                                R.drawable.s10
         };
-        */
+
         ArrayList<MyItems> dataset = new ArrayList<>();
 
         MyItems item1 = new MyItems();
@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
         GridView gridView = (GridView) findViewById(R.id.GridView);
         gridView.setAdapter(adapter);
     }
-    // My code ends here....
-
+    // My code ends here....  */
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
