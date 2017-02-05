@@ -1,4 +1,4 @@
-package com.example.a4adapterviews;
+package com.example.a42adapterviewsbuttonadapter;
 
 import android.content.Context;
 import android.view.View;
@@ -22,7 +22,7 @@ public class ButtonAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return 14;
     }
 
     @Override
@@ -39,15 +39,13 @@ public class ButtonAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
      /*   return null;  */
 
-        Button btn = new Button(context);
+        Button button = new Button(context);
 
 
-        btn.setLayoutParams(new AbsListView.LayoutParams(AbsListView.LayoutParams.MATCH_PARENT,
+        button.setLayoutParams(new AbsListView.LayoutParams(AbsListView.LayoutParams.MATCH_PARENT,
                 AbsListView.LayoutParams.WRAP_CONTENT));
-        btn.setText("" + position);
+        button.setText("" + position);
 
-        /*???^^*/
-
-        return btn;
+        return button;
     }
 }

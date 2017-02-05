@@ -18,6 +18,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+/* Add permission in manifest file */
 public class MainActivity extends AppCompatActivity {
 
     @Override

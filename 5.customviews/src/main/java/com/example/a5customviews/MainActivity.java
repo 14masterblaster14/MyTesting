@@ -10,6 +10,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //MyView view =  new MyView(this);
+        MyView view = new MyView(this);
     }
 }

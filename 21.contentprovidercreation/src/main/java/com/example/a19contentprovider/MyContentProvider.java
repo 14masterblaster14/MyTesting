@@ -7,7 +7,7 @@ import android.net.Uri;
 
 public class MyContentProvider extends ContentProvider {
 
-    //private DbHelper dbHelper;
+    private DbHelper dbHelper;
 
     public MyContentProvider() {
     }
@@ -34,16 +34,18 @@ public class MyContentProvider extends ContentProvider {
     @Override
     public boolean onCreate() {
         // TODO: Implement this to initialize your content provider on startup.
-        return false;
-
-        // dbHelper = new DbHepler(getContext(),)
+        dbHelper = new DbHelper(getContext(), "My.SqlDb", null, 1);
+        return true;
+        //return false;
     }
 
     @Override
     public Cursor query(Uri uri, String[] projection, String selection,
                         String[] selectionArgs, String sortOrder) {
         // TODO: Implement this to handle query requests from clients.
-        throw new UnsupportedOperationException("Not yet implemented");
+        return dbHelper.getReadableDatabase().query("UserTable", projection, selection, selectionArgs, null, null, sortOrder);
+
+        // throw new UnsupportedOperationException("Not yet implemented");
     }
 
     @Override

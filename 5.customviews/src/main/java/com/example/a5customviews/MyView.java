@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 public class MyView extends TextView {
     private Paint paint;
+    private Canvas canvas;
     private int x, y, dx = 5, dy = 5;
 
     public MyView(Context context) {
@@ -64,9 +65,12 @@ public class MyView extends TextView {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        this.canvas = canvas;
+        canvas.drawText("{code}kul;", 70, 70, paint);
+        paint.setColor(Color.BLACK);
 
         canvas.drawCircle(x, y, 30, paint);
-        //canvas.drawText("{code}kul;",70,70,paint);
+
         //canvas.drawLine(10,10,90,90,paint);
     }
 }

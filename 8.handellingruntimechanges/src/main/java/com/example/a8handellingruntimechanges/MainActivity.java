@@ -34,33 +34,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    /*
-      protected void onRestart() {
-          super.onRestart();
-          showToast("onRestart");
-      }
-
-      protected void onStart() {
-          super.onStart();
-          showToast("onStart");
-      }
-
-      protected void onResume() {
-          super.onResume();
-          showToast("onResume");
-      }
-
-      protected void onPause() {
-          super.onPause();
-          showToast("onPause");
-      }
-
-      protected void onStop() {
-          super.onStop();
-          showToast("onStop");
-      }
-
-      */
     protected void onDestroy() {
         super.onDestroy();
         showToast("onDestroy");
