@@ -35,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
         setCurrentDateOnView();
 
-        DatePicker datePicker2 = (DatePicker) findViewById(R.id.DtPicker);
-
         setCurrentTimeOnView();
 
         TimePicker timePicker2 = (TimePicker) findViewById(R.id.TmPicker);
@@ -62,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
         Log.v("@UIControl", " DatePicker Default Month Value :" + month);
         Log.v("@UIControl", " DatePicker Default Day Value :" + day);
 
-        DatePicker datePicker1 = (DatePicker) findViewById(R.id.DtPicker);
+        DatePicker datePicker = (DatePicker) findViewById(R.id.DtPicker);
+        datePicker.updateDate(year, month, day);
     }
 
     public void setCurrentTimeOnView() {

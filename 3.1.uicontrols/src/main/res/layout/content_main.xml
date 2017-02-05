@@ -65,7 +65,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#F48FB1"
-        android:completionHint="Enter Sex" />
+        android:hint="Enter Sex">
+
+    </AutoCompleteTextView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -81,14 +83,6 @@
             android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/image" />
-
-        <ImageSwitcher
-            android:id="@+id/ImgSwitcher"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-        </ImageSwitcher>
-
 
         <ImageButton
             android:id="@+id/ImgBtn"

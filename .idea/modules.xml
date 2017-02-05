@@ -21,13 +21,16 @@
       <module fileurl="file://$PROJECT_DIR$/18.sharedpreferences/18.sharedpreferences.iml" filepath="$PROJECT_DIR$/18.sharedpreferences/18.sharedpreferences.iml" />
       <module fileurl="file://$PROJECT_DIR$/19.1externalstorage/19.1externalstorage.iml" filepath="$PROJECT_DIR$/19.1externalstorage/19.1externalstorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/19.internalstoragefilemanipulation/19.internalstoragefilemanipulation.iml" filepath="$PROJECT_DIR$/19.internalstoragefilemanipulation/19.internalstoragefilemanipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.1tablelayout/2.1tablelayout.iml" filepath="$PROJECT_DIR$/2.1tablelayout/2.1tablelayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/2.layoutsandviews/2.layoutsandviews.iml" filepath="$PROJECT_DIR$/2.layoutsandviews/2.layoutsandviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/20.sqlite/20.sqlite.iml" filepath="$PROJECT_DIR$/20.sqlite/20.sqlite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/21.1contactapp/21.1contactapp.iml" filepath="$PROJECT_DIR$/21.1contactapp/21.1contactapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21.1contentproviderusage/21.1contentproviderusage.iml" filepath="$PROJECT_DIR$/21.1contentproviderusage/21.1contentproviderusage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21.2contactapp/21.2contactapp.iml" filepath="$PROJECT_DIR$/21.2contactapp/21.2contactapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/21.contentprovidercreation/21.contentprovidercreation.iml" filepath="$PROJECT_DIR$/21.contentprovidercreation/21.contentprovidercreation.iml" />
       <module fileurl="file://$PROJECT_DIR$/22.service/22.service.iml" filepath="$PROJECT_DIR$/22.service/22.service.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.1.uicontrols/3.1.uicontrols.iml" filepath="$PROJECT_DIR$/3.1.uicontrols/3.1.uicontrols.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.2.uicontrols/3.2.uicontrols.iml" filepath="$PROJECT_DIR$/3.2.uicontrols/3.2.uicontrols.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.3imageswitcher/3.3imageswitcher.iml" filepath="$PROJECT_DIR$/3.3imageswitcher/3.3imageswitcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" filepath="$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/3Remove/3Remove.iml" filepath="$PROJECT_DIR$/3Remove/3Remove.iml" />
       <module fileurl="file://$PROJECT_DIR$/4.1adapterviews/4.1adapterviews.iml" filepath="$PROJECT_DIR$/4.1adapterviews/4.1adapterviews.iml" />

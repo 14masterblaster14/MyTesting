@@ -27,6 +27,9 @@ public class MyService extends Service {
         mediaPlayer = MediaPlayer.create(this, R.raw.whistle);
         mediaPlayer.start();
         return START_NOT_STICKY;
+        // START_NOT_STICKY --> Service will be terminated and not recreate again.
+        //START_STICKY --> Service will be recreated on its own i.e. song will play again even if activity gets killed
+
         //    return super.onStartCommand(intent, flags, startId);
         }
 

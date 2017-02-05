@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.CheckBox;
@@ -73,10 +74,14 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, sex);
         autoCompleteTextView.setAdapter(adapter);
         autoCompleteTextView.setThreshold(1);
-        String Selection = String.valueOf(autoCompleteTextView.getListSelection());
 
-        Log.v("@UIControl", "AutoCompleteTextView Selection :" + Selection);
-
+        autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String selection = (String) parent.getItemAtPosition(position);
+                Log.v("@UIControl", "AutoCompleteTextView Selection :" + selection);
+            }
+        });
 
         findViewById(R.id.ImgBtn).setOnClickListener(new View.OnClickListener() {
             @Override

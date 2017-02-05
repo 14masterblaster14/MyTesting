@@ -43,7 +43,17 @@ public class MainActivity extends AppCompatActivity {
                 stopService(intent);
             }
         });
+
+        findViewById(R.id.BtnPlay1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MyIntentService.class);
+                startService(intent);
+            }
+        });
+
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
