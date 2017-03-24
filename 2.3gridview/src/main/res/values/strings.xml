@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">2.3GridView</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello">Hello World, AndroidGridLayoutActivity!</string>
+</resources>
