@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">6.1.animations</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_btn_start">Start Animation</string>
+
+    <!-- Display text -->
+    <string name="txt_fadein">This is fade in animation</string>
+
+</resources>
