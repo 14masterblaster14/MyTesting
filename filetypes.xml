@@ -1,0 +1,13 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="image" type="Images" />
+      <mapping pattern="welcome1" type="Images" />
+      <mapping pattern="h" type="Images" />
+      <mapping pattern="welcome" type="Images" />
+      <mapping ext="mp3" type="Native" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping pattern="rotate" type="XML" />
+    </extensionMap>
+  </component>
+</application>
