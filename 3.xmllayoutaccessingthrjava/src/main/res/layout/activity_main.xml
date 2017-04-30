@@ -35,8 +35,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="4dp"
         android:layout_marginTop="4dp"
-        android:text="Submit"
-        android:onClick="Submit"/>
+        android:onClick="Submit"
+        android:text="Submit" />
 
     <TextView
         android:id="@+id/Txt_Upper"
@@ -53,8 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="4dp"
-        android:text="Revert"
-        android:onClick="Revert"/>
+        android:onClick="Revert"
+        android:text="Revert" />
 
     <TextView
         android:id="@+id/Txt_Lower"
@@ -72,6 +72,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="4dp"
-        android:text="Reset"
-        android:onClick="Reset"/>
+        android:onClick="Reset"
+        android:text="Reset" />
 </LinearLayout>

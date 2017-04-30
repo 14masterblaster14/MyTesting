@@ -3,13 +3,43 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.uibycode/1.uibycode.iml" filepath="$PROJECT_DIR$/1.uibycode/1.uibycode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/10.fragments/10.fragments.iml" filepath="$PROJECT_DIR$/10.fragments/10.fragments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.1.fragments1/10.1.fragments1.iml" filepath="$PROJECT_DIR$/10.1.fragments1/10.1.fragments1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.2.fragments2/10.2.fragments2.iml" filepath="$PROJECT_DIR$/10.2.fragments2/10.2.fragments2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.3.fragments3/10.3.fragments3.iml" filepath="$PROJECT_DIR$/10.3.fragments3/10.3.fragments3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.4.fragments4/10.4.fragments4.iml" filepath="$PROJECT_DIR$/10.4.fragments4/10.4.fragments4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.5.fragment5/10.5.fragment5.iml" filepath="$PROJECT_DIR$/10.5.fragment5/10.5.fragment5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.6.fragment6/10.6.fragment6.iml" filepath="$PROJECT_DIR$/10.6.fragment6/10.6.fragment6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.2snackbar/11.2snackbar.iml" filepath="$PROJECT_DIR$/11.2snackbar/11.2snackbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" filepath="$PROJECT_DIR$/11.toastnotifications/11.toastnotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" filepath="$PROJECT_DIR$/12.statusbarnotification/12.statusbarnotification.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2.layouts&amp;views/2.layouts&amp;views.iml" filepath="$PROJECT_DIR$/2.layouts&amp;views/2.layouts&amp;views.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" filepath="$PROJECT_DIR$/13.dialogotification/13.dialogotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14.assetsandresources/14.assetsandresources.iml" filepath="$PROJECT_DIR$/14.assetsandresources/14.assetsandresources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15.interactivitycommunication/15.interactivitycommunication.iml" filepath="$PROJECT_DIR$/15.interactivitycommunication/15.interactivitycommunication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16.intentandfilters/16.intentandfilters.iml" filepath="$PROJECT_DIR$/16.intentandfilters/16.intentandfilters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17.1remove/17.1remove.iml" filepath="$PROJECT_DIR$/17.1remove/17.1remove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17.broadcastandreceivers/17.broadcastandreceivers.iml" filepath="$PROJECT_DIR$/17.broadcastandreceivers/17.broadcastandreceivers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18.sharedpreferences/18.sharedpreferences.iml" filepath="$PROJECT_DIR$/18.sharedpreferences/18.sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19.1externalstorage/19.1externalstorage.iml" filepath="$PROJECT_DIR$/19.1externalstorage/19.1externalstorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19.internalstoragefilemanipulation/19.internalstoragefilemanipulation.iml" filepath="$PROJECT_DIR$/19.internalstoragefilemanipulation/19.internalstoragefilemanipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.1tablelayout/2.1tablelayout.iml" filepath="$PROJECT_DIR$/2.1tablelayout/2.1tablelayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.2gridlayout/2.2gridlayout.iml" filepath="$PROJECT_DIR$/2.2gridlayout/2.2gridlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.3gridview/2.3gridview.iml" filepath="$PROJECT_DIR$/2.3gridview/2.3gridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.layoutsandviews/2.layoutsandviews.iml" filepath="$PROJECT_DIR$/2.layoutsandviews/2.layoutsandviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20.sqlite/20.sqlite.iml" filepath="$PROJECT_DIR$/20.sqlite/20.sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21.1contentproviderusage/21.1contentproviderusage.iml" filepath="$PROJECT_DIR$/21.1contentproviderusage/21.1contentproviderusage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21.2contactapp/21.2contactapp.iml" filepath="$PROJECT_DIR$/21.2contactapp/21.2contactapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21.contentprovidercreation/21.contentprovidercreation.iml" filepath="$PROJECT_DIR$/21.contentprovidercreation/21.contentprovidercreation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22.service/22.service.iml" filepath="$PROJECT_DIR$/22.service/22.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.1.uicontrols/3.1.uicontrols.iml" filepath="$PROJECT_DIR$/3.1.uicontrols/3.1.uicontrols.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.2.uicontrols/3.2.uicontrols.iml" filepath="$PROJECT_DIR$/3.2.uicontrols/3.2.uicontrols.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.3imageswitcher/3.3imageswitcher.iml" filepath="$PROJECT_DIR$/3.3imageswitcher/3.3imageswitcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" filepath="$PROJECT_DIR$/3.xmllayoutaccessingthrjava/3.xmllayoutaccessingthrjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3Remove/3Remove.iml" filepath="$PROJECT_DIR$/3Remove/3Remove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.1adapterviews/4.1adapterviews.iml" filepath="$PROJECT_DIR$/4.1adapterviews/4.1adapterviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.2adapterviewsbuttonadapter/4.2adapterviewsbuttonadapter.iml" filepath="$PROJECT_DIR$/4.2adapterviewsbuttonadapter/4.2adapterviewsbuttonadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/4.adapterviews/4.adapterviews.iml" filepath="$PROJECT_DIR$/4.adapterviews/4.adapterviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/5.customviews/5.customviews.iml" filepath="$PROJECT_DIR$/5.customviews/5.customviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6.1.animations/6.1.animations.iml" filepath="$PROJECT_DIR$/6.1.animations/6.1.animations.iml" />
       <module fileurl="file://$PROJECT_DIR$/6.animations/6.animations.iml" filepath="$PROJECT_DIR$/6.animations/6.animations.iml" />
       <module fileurl="file://$PROJECT_DIR$/7.activitylifecycle/7.activitylifecycle.iml" filepath="$PROJECT_DIR$/7.activitylifecycle/7.activitylifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/8.handellingruntimechanges/8.handellingruntimechanges.iml" filepath="$PROJECT_DIR$/8.handellingruntimechanges/8.handellingruntimechanges.iml" />

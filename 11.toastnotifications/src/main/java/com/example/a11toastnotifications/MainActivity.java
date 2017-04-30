@@ -21,15 +21,15 @@ public class MainActivity extends AppCompatActivity {
           /*      Toast toast = Toast.makeText(MainActivity.this,"This is a Toast",Toast.LENGTH_SHORT);
                 toast.show(); */
 
-                Toast.makeText(MainActivity.this, "My Darling, this is a toast", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Hi Dear, this is a toast", Toast.LENGTH_SHORT).show();
 
                 /* We can set a button for toast view */
 
-             /*   Toast toast = Toast.makeText(MainActivity.this,"This is toast",Toast.LENGTH_SHORT);
+           /*     Toast toast = Toast.makeText(MainActivity.this,"This is toast",Toast.LENGTH_SHORT);
 
                   toast.setView(new Button(MainActivity.this));
                   toast.setView(new ImageView(MainActivity.this));
-                  toast.show();     */
+                  toast.show(); */
 
             }
         });

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">14.Assets&amp;Resources</string>
+    <string name="Submit_Btn">Submit</string>
+    <string-array name="Cities">
+        <item> Ahmadabad </item>
+        <item> Banglore </item>
+        <item> Chennai </item>
+        <item> Dadar </item>
+    </string-array>
+    <string name="styleText">Welcome!</string>
+</resources>

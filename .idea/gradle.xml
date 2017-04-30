@@ -3,19 +3,50 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1.uibycode" />
-            <option value="$PROJECT_DIR$/10.fragments" />
+            <option value="$PROJECT_DIR$/10.1.fragments1" />
+            <option value="$PROJECT_DIR$/10.2.fragments2" />
+            <option value="$PROJECT_DIR$/10.3.fragments3" />
+            <option value="$PROJECT_DIR$/10.4.fragments4" />
+            <option value="$PROJECT_DIR$/10.5.fragment5" />
+            <option value="$PROJECT_DIR$/10.6.fragment6" />
+            <option value="$PROJECT_DIR$/11.2snackbar" />
             <option value="$PROJECT_DIR$/11.toastnotifications" />
             <option value="$PROJECT_DIR$/12.statusbarnotification" />
-            <option value="$PROJECT_DIR$/2.layouts&amp;views" />
+            <option value="$PROJECT_DIR$/13.dialogotification" />
+            <option value="$PROJECT_DIR$/14.assetsandresources" />
+            <option value="$PROJECT_DIR$/15.interactivitycommunication" />
+            <option value="$PROJECT_DIR$/16.intentandfilters" />
+            <option value="$PROJECT_DIR$/17.1remove" />
+            <option value="$PROJECT_DIR$/17.broadcastandreceivers" />
+            <option value="$PROJECT_DIR$/18.sharedpreferences" />
+            <option value="$PROJECT_DIR$/19.1externalstorage" />
+            <option value="$PROJECT_DIR$/19.internalstoragefilemanipulation" />
+            <option value="$PROJECT_DIR$/2.1tablelayout" />
+            <option value="$PROJECT_DIR$/2.2gridlayout" />
+            <option value="$PROJECT_DIR$/2.3gridview" />
+            <option value="$PROJECT_DIR$/2.layoutsandviews" />
+            <option value="$PROJECT_DIR$/20.sqlite" />
+            <option value="$PROJECT_DIR$/21.1contentproviderusage" />
+            <option value="$PROJECT_DIR$/21.2contactapp" />
+            <option value="$PROJECT_DIR$/21.contentprovidercreation" />
+            <option value="$PROJECT_DIR$/22.service" />
+            <option value="$PROJECT_DIR$/3.1.uicontrols" />
+            <option value="$PROJECT_DIR$/3.2.uicontrols" />
+            <option value="$PROJECT_DIR$/3.3imageswitcher" />
             <option value="$PROJECT_DIR$/3.xmllayoutaccessingthrjava" />
+            <option value="$PROJECT_DIR$/3Remove" />
+            <option value="$PROJECT_DIR$/4.1adapterviews" />
+            <option value="$PROJECT_DIR$/4.2adapterviewsbuttonadapter" />
             <option value="$PROJECT_DIR$/4.adapterviews" />
             <option value="$PROJECT_DIR$/5.customviews" />
+            <option value="$PROJECT_DIR$/6.1.animations" />
             <option value="$PROJECT_DIR$/6.animations" />
             <option value="$PROJECT_DIR$/7.activitylifecycle" />
             <option value="$PROJECT_DIR$/8.handellingruntimechanges" />
@@ -24,25 +55,7 @@
             <option value="$PROJECT_DIR$/layouttest" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/1.uibycode" />
-            <option value="$PROJECT_DIR$/10.fragments" />
-            <option value="$PROJECT_DIR$/11.toastnotifications" />
-            <option value="$PROJECT_DIR$/12.statusbarnotification" />
-            <option value="$PROJECT_DIR$/2.layouts&amp;views" />
-            <option value="$PROJECT_DIR$/3.xmllayoutaccessingthrjava" />
-            <option value="$PROJECT_DIR$/4.adapterviews" />
-            <option value="$PROJECT_DIR$/5.customviews" />
-            <option value="$PROJECT_DIR$/6.animations" />
-            <option value="$PROJECT_DIR$/7.activitylifecycle" />
-            <option value="$PROJECT_DIR$/8.handellingruntimechanges" />
-            <option value="$PROJECT_DIR$/9.handellingruntimechangesbyown" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/layouttest" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

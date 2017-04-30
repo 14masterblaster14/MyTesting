@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">18.SQLite</string>
+    <string name="EdtUsrName">Edit User Name</string>
+    <string name="EdtRollNo">Edit Roll No</string>
+    <string name="BtnInsert">INSERT</string>
+    <string name="BtnUpdt">UPDATE</string>
+    <string name="BtnQuery">QUERY</string>
+    <string name="BtnDelete">DELETE</string>
+    <string name="BtnShowTbl">SHOW TABLE VALUES</string>
+    <string name="BtnShowTbl1">Show Table_Raw</string>
+</resources>

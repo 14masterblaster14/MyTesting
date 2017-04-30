@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">19.1externalstorage</string>
+    <string name="bad_media">Bad Media, Check SD Card</string>
+</resources>

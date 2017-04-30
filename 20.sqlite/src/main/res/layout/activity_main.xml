@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a18sqlite.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/BtmMrgn"
+        android:text="Welcome to SQL operations!"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EdtUsrName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/BtmMrgn"
+        android:hint="@string/EdtUsrName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/EdtRollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/BtmMrgn"
+        android:hint="@string/EdtRollNo"
+        android:inputType="number"
+        android:maxLength="4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BtnInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="Insert" />
+
+        <Button
+            android:id="@+id/BtnUpdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="@string/BtnUpdt" />
+
+        <Button
+            android:id="@+id/BtnQuery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="@string/BtnQuery" />
+
+        <Button
+            android:id="@+id/BtnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="@string/BtnDelete" />
+
+        <Button
+            android:id="@+id/BtnRawInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="Raw Insert" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/BtnShowTbl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="@string/BtnShowTbl" />
+
+        <Button
+            android:id="@+id/BtnShowTbl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/BtmMrgn"
+            android:text="Show Table by Raw" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/ListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ListView>
+
+        <TextView
+            android:id="@+id/TxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

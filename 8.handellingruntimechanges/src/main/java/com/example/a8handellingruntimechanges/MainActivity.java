@@ -11,7 +11,7 @@ import android.widget.Toast;
 import java.io.File;
 import java.util.Date;
 
-/* For rotate screen   */
+/* For rotate screen date should retain and image changes according to orientation */
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,31 +33,6 @@ public class MainActivity extends AppCompatActivity {
         showToast("onCreate");
     }
 
-
-    protected void onRestart() {
-        super.onRestart();
-        showToast("onRestart");
-    }
-
-    protected void onStart() {
-        super.onStart();
-        showToast("onStart");
-    }
-
-    protected void onResume() {
-        super.onResume();
-        showToast("onResume");
-    }
-
-    protected void onPause() {
-        super.onPause();
-        showToast("onPause");
-    }
-
-    protected void onStop() {
-        super.onStop();
-        showToast("onStop");
-    }
 
     protected void onDestroy() {
         super.onDestroy();

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.a105fragment5.OtherFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Other Fragment!" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <Button
+        android:id="@+id/btnMy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Fragment" />
+
+    <Button
+        android:id="@+id/btnTweety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tweety Fragment" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnTeaser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaser Fragment" />
+
+        <Button
+            android:id="@+id/btnFight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fight Fragment" />
+
+    </LinearLayout>
+
+</LinearLayout>
