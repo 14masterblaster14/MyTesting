@@ -10,6 +10,14 @@
           <option name="url" value="https://github.com/dkim0419/SoundRecorder.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/DroidsOnRoids/ExampleRealm-Android.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/RaphetS/DemoRealm.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\comp\AndroidStudioProjects" />
