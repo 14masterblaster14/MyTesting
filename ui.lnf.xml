@@ -2,6 +2,7 @@
   <component name="UISettings">
     <option name="HIDE_TOOL_STRIPES" value="false" />
     <option name="RIGHT_HORIZONTAL_SPLIT" value="true" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
   </component>
 </application>
